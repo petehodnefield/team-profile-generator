@@ -1,2 +1,3 @@
-// RUNS THE APPLICATION
-// APPLICATION WILL BE RAN USING node index.js
+const Application = require("./lib/Application")
+
+Application()

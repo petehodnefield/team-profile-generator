@@ -28,5 +28,6 @@ test("checks that getRole = employee", () => {
     const employee = new Employee("Dave", 69, "dave@gmail.com")
 
     expect(employee.getRole()).toEqual("Employee")
+    console.log(employee)
 
 })
