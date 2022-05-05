@@ -12,8 +12,6 @@
 - Inquirer
 - Jest
 
-## Usage
-
 ## License
 
 [![MIT](https://img.shields.io/npm/l/mit-license)](./assets/license_contributing/MIT_license.md)
@@ -37,6 +35,9 @@ test("checks that employee data works", () => {
     expect(employee).toEqual(expect.any(Object))
 })
 ```
+
+## Usage
+<img width="2557" alt="Screen Shot 2022-05-05 at 11 51 42 AM" src="https://user-images.githubusercontent.com/98546095/166974598-0b4a780e-50ec-4311-87cc-2a3925c998af.png">
 
 ## How to Contribute
 
