@@ -1,3 +1,3 @@
 const Application = require("./lib/Application")
 
-Application()
+new Application().initializeApp()
