@@ -11,7 +11,7 @@ const generateManager = function(name, id, email, role, officeNumber) {
     <h3>${role}</h3>
     <h3>Employee ID: ${id}</h3>
     <h3>Email Address: <a href="mailto:${email}">${email}</a></h3>
-    <h3>Office Number:${officeNumber}</h3>
+    <h3>Office Number: ${officeNumber}</h3>
     </div>
     `
     totalInfo.push(managerInformation)
