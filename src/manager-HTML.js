@@ -1,7 +1,7 @@
 const fs = require('fs')
 const writeFile = require("../src/generate-site")
 
-const generatePage = function(yaya) {
+const generateManager = function(yaya) {
 
     const {name, id, email, officeNumber, role} = yaya[0]
     console.log(name, id, email, officeNumber, role)
@@ -40,4 +40,4 @@ const generatePage = function(yaya) {
 // writeFile()
 
 
-module.exports = generatePage
+module.exports = generateManager
